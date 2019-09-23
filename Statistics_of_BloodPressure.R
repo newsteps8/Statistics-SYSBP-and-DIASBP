@@ -1,5 +1,5 @@
-#Büşra_GÖKMEN_150116027
-HW1_Data_v1 = read.csv("Downloads/HW1_Data_v1.csv")
+#Büşra_GÖKMEN
+HW1_Data_v1 = read.csv("Downloads/dataset.csv")
 manSYSBP = HW1_Data_v1[HW1_Data_v1$GENDER == 0, "SYSBP"]
 womenSYSBP = HW1_Data_v1[HW1_Data_v1$GENDER == 1, "SYSBP"]
 manDIASBP = HW1_Data_v1[HW1_Data_v1$GENDER == 0, "DIASBP"]
